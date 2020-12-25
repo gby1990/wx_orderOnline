@@ -15,24 +15,12 @@ Page({
 		foodList: [            // 分类
 			{
 				id: 0,
-				name: '蓝莓草莓'
+				name: '未医熏灸疗法'
 			},
 			{
 				id: 1,
-				name: '柑橘橙柚'
+				name: '艾灸烤灸疗法'
 			},
-			{
-				id: 2,
-				name: '热带水果'
-			},
-			{
-				id: 3,
-				name: '苹果/梨'
-			},
-			{
-				id: 4,
-				name: '瓜类'
-			}
 		],
 		classifyList : [],   //所有商品信息
 	},

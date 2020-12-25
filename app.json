@@ -2,21 +2,16 @@
   "pages": [
     "pages/index/index",
     "pages/person/person",
-   
-    
-  
     "pages/common/list",
     "pages/classify/classify",
     "pages/class/myFruits/myFruits",
-    
     "pages/myCart/myCart",
-    
-    
-    "pages/class/myMeat/myMeat"
+    "pages/class/myMeat/myMeat",
+    "pages/newpages/aijiu"
   ],
   "window": {
-    "navigationBarTitleText": "河马先生",
-    "navigationBarBackgroundColor": "#11bcff",
+    "navigationBarTitleText": "健康之家",
+    "navigationBarBackgroundColor": "#ff0000",
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
@@ -27,15 +22,15 @@
     "list": [
       {
         "pagePath": "pages/index/index",
-        "iconPath": "assets/icons/hemalogo.png",
-        "selectedIconPath": "assets/icons/hemalogo-active.png",
+        "iconPath": "assets/icons/indexs.png",
+        "selectedIconPath": "assets/icons/indexss.png",
         "text": "首页"
       },
       {
         "pagePath": "pages/classify/classify",
         "iconPath": "assets/icons/class.png",
         "selectedIconPath": "assets/icons/class-active.png",
-        "text": "分类"
+        "text": "健康课程"
       },
       {
         "pagePath": "pages/myCart/myCart",
@@ -51,5 +46,6 @@
       }
     ]
   },
-  "debug": false
+  "debug": false,
+  "sitemapLocation": "sitemap.json"
 }
