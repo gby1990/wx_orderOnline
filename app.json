@@ -21,8 +21,8 @@
     "list": [
       {
         "pagePath": "pages/index/index",
-        "iconPath": "assets/icons/hemalogo.png",
-        "selectedIconPath": "assets/icons/hemalogo-active.png",
+        "iconPath": "assets/icons/home.png",
+        "selectedIconPath": "assets/icons/homes.png",
         "text": "首页"
       },
       {

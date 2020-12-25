@@ -6,11 +6,15 @@ Page({
    */
   data: {
     //分类信息存储
-    classify:[{
-      url:"https://i.ibb.co/C7MM5qF/1.jpg",
-    }
-    
-    ]
+    imgUrls:[
+      'https://pic.downk.cc/item/5fe663523ffa7d37b3a922b1.jpg',
+     'https://pic.downk.cc/item/5fe663523ffa7d37b3a922b3.jpg',
+     'https://pic.downk.cc/item/5fe663523ffa7d37b3a922b6.jpg',
+     'https://pic.downk.cc/item/5fe663523ffa7d37b3a922b9.jpg',
+     'https://pic.downk.cc/item/5fe663523ffa7d37b3a922bc.jpg',
+     'https://pic.downk.cc/item/5fe663db3ffa7d37b3a955c9.jpg',
+     'https://pic.downk.cc/item/5fe6738a3ffa7d37b3ae6001.jpg',
+    ],
   },
 
   /**
@@ -69,3 +73,4 @@ Page({
   
   }
 })
+
