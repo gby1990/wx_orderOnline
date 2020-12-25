@@ -15,26 +15,21 @@ Page({
 		foodList: [            // 分类
 			{
 				id: 0,
-				name: '蓝莓草莓'
+				name: '熏灸理疗'
 			},
 			{
 				id: 1,
-				name: '柑橘橙柚'
+				name: '艾灸理疗'
 			},
 			{
 				id: 2,
-				name: '热带水果'
+				name: '艾草日化'
 			},
-			{
-				id: 3,
-				name: '苹果/梨'
-			},
-			{
-				id: 4,
-				name: '瓜类'
-			}
+
 		],
-		classifyList : [],   //所有商品信息
+		classifyList : [
+
+		],   //所有商品信息
 	},
 
 	/**
