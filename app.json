@@ -15,7 +15,7 @@
     "pages/class/myMeat/myMeat"
   ],
   "window": {
-    "navigationBarTitleText": "河马先生",
+    "navigationBarTitleText": "灸疗馆",
     "navigationBarBackgroundColor": "#11bcff",
     "navigationBarTextStyle": "black"
   },
@@ -35,7 +35,7 @@
         "pagePath": "pages/classify/classify",
         "iconPath": "assets/icons/class.png",
         "selectedIconPath": "assets/icons/class-active.png",
-        "text": "分类"
+        "text": "健康课程"
       },
       {
         "pagePath": "pages/myCart/myCart",
