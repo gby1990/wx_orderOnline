@@ -11,7 +11,7 @@
         </swiper>
     </view>
     <!-- 分类导航信息 -->
-    <view class="components">
+    <view class="components"style="display: flex">
         <block wx:for="{{components}}" wx:key="index">
             <view class="functions" bindtap="changeTo" data-where="{{item.where}}">
                 <view class="functionImage">
@@ -49,7 +49,7 @@
     
     <view class="todayTrump">
         <image src="../../assets/icons/wangpai.png"/>
-        <text>今日王牌大赏</text>
+        <text>最新活动</text>
         <navigator class="todayTrump-right" url= "../class/myFruits/myFruits">
             <text>更多</text>
             <image src="../../assets/icons/right.png"/>
@@ -82,7 +82,7 @@
 
     <!-- </view> -->
     <view class="GoodsLabel">
-        新品上架
+        
     </view>
     <!-- 新产品列表 -->
     <view class="newGoods">
@@ -97,7 +97,7 @@
         </block>
     </view>
     <view class="GoodsLabel">
-        经典系列
+       
     </view>
     <!-- 经典产品列表 -->
     <view class="newGoods">

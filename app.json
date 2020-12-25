@@ -2,21 +2,15 @@
   "pages": [
     "pages/index/index",
     "pages/person/person",
-   
-    
-  
     "pages/common/list",
     "pages/classify/classify",
     "pages/class/myFruits/myFruits",
-    
     "pages/myCart/myCart",
-    
-    
     "pages/class/myMeat/myMeat"
   ],
   "window": {
     "navigationBarTitleText": "灸疗馆",
-    "navigationBarBackgroundColor": "#11bcff",
+    "navigationBarBackgroundColor": "#FCF2F0",
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
@@ -51,5 +45,6 @@
       }
     ]
   },
-  "debug": false
+  "debug": false,
+  "sitemapLocation": "sitemap.json"
 }

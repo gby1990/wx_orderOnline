@@ -13,9 +13,54 @@
 }
 .slide-image{
     width: 100%;
-    height: 290rpx; 
+    height: 270rpx; 
     margin:  0 auto;
 }
+
+
+.components{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-size: cover;
+}
+.components .functions{
+    width: 150rpx;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25rpx;
+
+}
+
+.components .functions image{
+    width:150rpx;
+    height: 150rpx;
+    display: inline-block;
+}
+.components .functions text{
+    text-align: center;
+    display: inline-block;
+    font-size: 30rpx;
+}
+
+.todayTrump{
+    width: 90%;
+    font-size: 50rpx;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10rpx;
+    font-weight: 1000;
+    margin-left: 50rpx;
+}
+
 .headlines{
     width: 100%;
     height: 80rpx;
@@ -86,47 +131,6 @@
     width:100rpx;
     height: 60rpx;
     margin-right: 20rpx;
-}
-.components{
-    width: 100%;
-    height: 15vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    background-size: cover;
-}
-.components .functions{
-    width: 150rpx;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 25rpx;
-
-}
-
-.components .functions image{
-    width:100rpx;
-    height: 100rpx;
-    display: inline-block;
-}
-.components .functions text{
-    text-align: center;
-    display: inline-block;
-}
-
-.todayTrump{
-    width: 90%;
-    font-size: 40rpx;
-    text-align: left;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    margin-top: 20rpx;
-    font-weight: 500;
-    margin-left: 50rpx;
 }
 .todayTrump image{
     width: 60rpx;
