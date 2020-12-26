@@ -12,41 +12,29 @@ Page({
     userInfoList: {     //商品信息
      first: [{
         icon: '../../assets/icons/coupon.png',
-        text: '优惠券',
-        alreadRead: true,
-        unreadNum: 2,
-        mes: "",
-      }, 
-      {
-        icon: '../../assets/icons/welfare.png',
-        text: '福利社',
-        alreadRead: false,
-        unreadNum: 0,
-        mes: "养盒马，能赚钱",
-      }, 
-      {
-        icon: '../../assets/icons/friend.png',
-        text: '邀请好友',
+        text: '新客户优惠券',
         alreadRead: true,
         unreadNum: 1,
-        mes: "得6元，可叠加",
+        mes: "10元代金券",
+      }, 
+  
+      {
+        icon: '../../assets/icons/friend.png',
+        text: '成为分销商',
+        alreadRead: false,
+        unreadNum: 0,
+        mes: "火热加盟中",
       }, ],
 
      second:[
        {
         icon: '../../assets/icons/yinhangka.png',
-        text: '银行卡活动',
+        text: '充值活动',
         alreadRead: false,
         unreadNum: 0,
-        mes: "浦发满50减10",
+        mes: "满50减10",
       }, 
-      {
-        icon: '../../assets/icons/dianziquan.png',
-        text: '电子券',
-        alreadRead: false,
-        unreadNum: 0,
-        mes: "",
-      }, 
+    
       {
         icon: '../../assets/icons/lipinka.png',
         text: '礼品卡',
@@ -54,39 +42,27 @@ Page({
         unreadNum: 0,
         mes: "电子卡赠亲友",
       },
-      {
-        icon: '../../assets/icons/duihuan.png',
-        text: '兑换优惠码',
-        alreadRead: false,
-        unreadNum: 0,
-        mes: "",
-      }, 
+      
       {
         icon: '../../assets/icons/kefu.png',
-        text: '盒马小蜜',
-        alreadRead: false,
-        unreadNum: 0,
-        mes: "客观，吐槽轻点",
-      }, 
-      {
-        icon: '../../assets/icons/pingjia.png',
-        text: '评价',
+        text: '联系客服',
         alreadRead: false,
         unreadNum: 0,
         mes: "",
       }, 
+   
     ],
     third: [
       {
         icon: '../../assets/icons/mendian.png',
-        text: '盒马门店',
+        text: '灸疗门店',
         alreadRead: false,
         unreadNum: 0,
         mes: "",
       }, 
       {
-        icon: '../../assets/icons/shezhi.png',
-        text: '设置',
+        icon: '../../assets/icons/share.png',
+        text: '分享',
         alreadRead: false,
         unreadNum: 0,
         mes: "",

@@ -9,24 +9,18 @@
     <!-- 杂项 -->
     <view class="foodState">
         <view class="states">
-            <image src="../../assets/icons/waitpay.png" />
-            <text>待付款</text>
+            <image src="../../assets/icons/member.png" />
+            <text>成为会员</text>
         </view>
+
         <view class="states">
-              <image src="../../assets/icons/waitpublish.png" />
-            <text>待配送</text>
+              <image src="../../assets/icons/point.png" />
+            <text>会员积分</text>
         </view>
+
         <view class="states">
-              <image src="../../assets/icons/gotoyourhome.png" />
-            <text>配送中</text>
-        </view>
-        <view class="states">
-              <image src="../../assets/icons/waitcompent.png" />
-            <text>待评价</text>
-        </view>
-        <view class="states">
-             <image src="../../assets/icons/allorder.png" />
-            <text>全部订单</text>
+             <image src="../../assets/icons/dingdan.png" />
+            <text>我的订单</text>
         </view>
     </view>
     <!-- 功能列表 -->
