@@ -6,7 +6,8 @@
     "pages/classify/classify",
     "pages/class/myFruits/myFruits",
     "pages/myCart/myCart",
-    "pages/class/myMeat/myMeat"
+    "pages/class/myMeat/myMeat",
+    "pages/lessons/xunjiu"
   ],
   "window": {
     "navigationBarTitleText": "灸疗馆",
@@ -26,7 +27,7 @@
         "text": "首页"
       },
       {
-        "pagePath": "pages/classify/classify",
+        "pagePath": "pages/lessons/xunjiu",
         "iconPath": "assets/icons/class.png",
         "selectedIconPath": "assets/icons/class-active.png",
         "text": "健康课程"

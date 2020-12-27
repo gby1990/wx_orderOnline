@@ -1,0 +1,25 @@
+<!--pages/lesssons/xunjiu.wxml-->
+<view class="container">
+   <!-- <scroll-view scroll-y="true"> -->
+      <!-- 导航栏 -->
+      <view class="navigation">
+            <!-- <scroll-view scroll-y="true" style=
+            "height:1000rpx"> -->
+        <block wx:for="{{foodList}}" wx:key = "index">
+            <text class="navFood {{currentTab==item.id?'active':''}}"
+             bindtap="changeNav" data-currentab="{{item.id}}">{{item.name}}</text>
+            </block>
+            <view class="bottom">
+                
+            </view>
+        </view>
+
+    <view class="content">
+     
+        <block wx:for="{{imgUrls}}" wx:key="index">
+            <image src="{{item}}" mode="widthFix"  />
+          </block>
+
+      </view>
+
+  </view>
