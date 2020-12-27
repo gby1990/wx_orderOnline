@@ -23,16 +23,17 @@
   text-align: center;
   color: rgba(0, 0, 0, 0.548);
   line-height: 100rpx;
-  border-right: 1rpx solid rgb(185, 182, 182);
+  border-bottom: 1rpx solid rgb(185, 182, 182);
 }
 .navigation .navFood.active{
   margin-right: -2rpx;
   margin-left: -2rpx;
   color: black;
   background-color: white;
-  border-right: 0 solid ; 
+  border-right: 1rpx solid rgb(185, 182, 182);
+  border-left: 1rpx solid rgb(185, 182, 182);
   border-top: 1rpx solid rgb(185, 182, 182);
-  border-bottom: 1rpx solid rgb(185, 182, 182);
+  border-bottom: 0rpx;
 }
 
 .content{

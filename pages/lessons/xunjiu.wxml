@@ -15,7 +15,6 @@
         </view>
 
     <view class="content">
-     
         <block wx:for="{{imgUrls}}" wx:key="index">
             <image src="{{item}}" mode="widthFix"  />
           </block>

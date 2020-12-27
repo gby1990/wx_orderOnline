@@ -17,7 +17,8 @@ Page({
 		foodList: [            // 分类
 			{
 				id: 0,
-				name: '熏灸理疗'
+        name: '熏灸理疗',
+    
 			},
 			{
 				id: 1,
@@ -27,16 +28,22 @@ Page({
 				id: 2,
 				name: '艾草日化'
 			},
-
     ],
     imgUrls:[
+      'https://pic.downk.cc/item/5fe8f58c3ffa7d37b316051a.jpg',
+      'https://pic.downk.cc/item/5fe8f5d23ffa7d37b31616fe.jpg',
       'https://pic.downk.cc/item/5fe663523ffa7d37b3a922b1.jpg',
      'https://pic.downk.cc/item/5fe663523ffa7d37b3a922b3.jpg',
      'https://pic.downk.cc/item/5fe663523ffa7d37b3a922b6.jpg',
      'https://pic.downk.cc/item/5fe663523ffa7d37b3a922b9.jpg',
      'https://pic.downk.cc/item/5fe663523ffa7d37b3a922bc.jpg',
      'https://pic.downk.cc/item/5fe663db3ffa7d37b3a955c9.jpg',
-     'https://pic.downk.cc/item/5fe6738a3ffa7d37b3ae6001.jpg',
+     'https://pic.downk.cc/item/5fe8fc8c3ffa7d37b317d3c3.jpg',
+     'https://pic.downk.cc/item/5fe8ff513ffa7d37b318862a.jpg',
+     'https://pic.downk.cc/item/5fe8ff513ffa7d37b318862c.jpg',
+     'https://pic.downk.cc/item/5fe8ff513ffa7d37b318862f.jpg',
+     'https://pic.downk.cc/item/5fe8ff513ffa7d37b3188634.jpg',
+
     ],
   },
 
