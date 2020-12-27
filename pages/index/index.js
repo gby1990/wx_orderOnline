@@ -8,8 +8,10 @@ Page({
   data: {
     imgUrls:[
       'https://pic.downk.cc/item/5fe663743ffa7d37b3a92f32.png',
+      'https://pic.downk.cc/item/5fe8f10f3ffa7d37b314db9d.png',
       'https://pic.downk.cc/item/5fe663743ffa7d37b3a92f35.png',
-      'https://pic.downk.cc/item/5fe663743ffa7d37b3a92f3c.png'
+      'https://pic.downk.cc/item/5fe663743ffa7d37b3a92f3c.png',
+     
     ],
     indicatorDots: true, //是否显示面板指示点
     autoplay: true, //是否自动切换

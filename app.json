@@ -7,7 +7,8 @@
     "pages/class/myFruits/myFruits",
     "pages/myCart/myCart",
     "pages/class/myMeat/myMeat",
-    "pages/lessons/xunjiu"
+    "pages/lessons/xunjiu",
+    "pages/class/myprod/product"
   ],
   "window": {
     "navigationBarTitleText": "灸疗馆",

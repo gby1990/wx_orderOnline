@@ -50,7 +50,7 @@
     <view class="todayTrump">
         <image src="../../assets/icons/wangpai.png"/>
         <text>最新活动</text>
-        <navigator class="todayTrump-right" url= "../class/myFruits/myFruits">
+        <navigator class="todayTrump-right" url= "../class/myprod/product">
             <text>了解更多</text>
             <image src="../../assets/icons/right.png"/>
         </navigator>
