@@ -20,7 +20,7 @@ Page({
   
       {
         icon: '../../assets/icons/friend.png',
-        text: '成为分销商',
+        text: '成为合作商',
         alreadRead: false,
         unreadNum: 0,
         mes: "火热加盟中",

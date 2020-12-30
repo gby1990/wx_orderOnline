@@ -70,7 +70,7 @@ Page({
   onLoad: function (options) {
     // 加载的时候从easymoc获取全局数据
     wx.request({
-      url: 'http://www.easy-mock.com/mock/5a1ffb42583969285ab22bb7/orderOnline/orderOnline',
+      url: '',
       complete: res => {
         console.log(res);
         app.globalData.classifyList = res.data;
